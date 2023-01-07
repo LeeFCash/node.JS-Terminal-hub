@@ -4,6 +4,7 @@
   "description": "this will be my recreation of my project-hub-resume (old name is terminal) but done in node.js but likely will not be a website of this so in order see the projest progress you may need to go to my youtube channel. Links -  youtube channel - https://www.youtube.com/channel/UC0Gzut3k_1jTDNkpOQDtAlw youtube channel blog playList(about this and more) - https://youtube.com/playlist?list=PL7vr_kFNXDB7JnTKGR6ZX_kqQGjUqeBQ7",
   "main": "index.js",
   "scripts": {
+    "compile": "sass ./src/views/terminal.scss ./src/views/terminal.css",
     "devStart": "nodemon ./src/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +21,7 @@
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.2",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "sass": "^1.57.1"
   }
 }
